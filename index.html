@@ -83,83 +83,32 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <svg
-            class="bd-placeholder-img"
-            width="100%"
-            height="100%"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
-
-          <div class="container">
-            <div class="carousel-caption text-start">
-              <h1>Example headline.</h1>
-              <p>
-                <img
-                  class="carousel-img"
-                  src="http://placekitten.com/1920/1080"
-                  alt=""
-                />
-              </p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="#">Sign up today</a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <svg
-            class="bd-placeholder-img"
-            width="100%"
-            height="100%"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
-
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Another example headline.</h1>
+          <div class="container-fluid p-0">
+            <p>
               <img
                 class="carousel-img"
-                src="http://placekitten.com/2560/1440"
+                src="http://placekitten.com/1920/1080"
                 alt=""
               />
-              <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-            </div>
+            </p>
           </div>
         </div>
         <div class="carousel-item">
-          <svg
-            class="bd-placeholder-img"
-            width="100%"
-            height="100%"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-            preserveAspectRatio="xMidYMid slice"
-            focusable="false"
-          >
-            <rect width="100%" height="100%" fill="#777" />
-          </svg>
-
-          <div class="container">
-            <div class="carousel-caption text-end">
-              <h1>One more for good measure.</h1>
-              <p>
-                Some representative placeholder content for the third slide of
-                this carousel.
-              </p>
-              <p>
-                <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
-              </p>
-            </div>
+          <div class="container-fluid p-0">
+            <img
+              class="carousel-img"
+              src="http://placekitten.com/2500/1440"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container-fluid p-0">
+            <img
+              class="carousel-img"
+              src="http://placekitten.com/2560/1440"
+              alt=""
+            />
           </div>
         </div>
       </div>
@@ -182,6 +131,104 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
+
+    <div class="container-fluid p-5">
+      <div class="row row-cols-1 row-cols-md-3 g-4 justify-content-center">
+        <div class="col-12 col-sm-5 col-lg-3">
+          <div class="card">
+            <img
+              src="http://placekitten.com/400/400"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Very cute kitten</h5>
+              <p class="card-text">Now you can see very cute kitten here.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-5 col-lg-3">
+          <div class="card">
+            <img
+              src="http://placekitten.com/400/400"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Very cute kitten</h5>
+              <p class="card-text">Now you can see very cute kitten here.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-5 col-lg-3">
+          <div class="card">
+            <img
+              src="http://placekitten.com/400/400"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Very cute kitten</h5>
+              <p class="card-text">Now you can see very cute kitten here.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-fluid text-bg-primary py-4">
+      <div class="container">
+        <h3>Modal Example</h3>
+        <button
+          type="button"
+          class="btn btn-success"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Open Modal
+        </button>
+
+        <div
+          class="modal fade text-dark"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Need more kittens?
+                </h5>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                Later you can see there more kittens!
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary">
+                  Not cool
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-bs-dismiss="modal"
+                >
+                  Cool
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
